@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51EF592319E0897F003C2370 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF592219E0897F003C2370 /* main.m */; };
+		51EF592619E0897F003C2370 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF592519E0897F003C2370 /* AppDelegate.m */; };
+		51EF592919E0897F003C2370 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF592819E0897F003C2370 /* ViewController.m */; };
+		51EF592C19E0897F003C2370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EF592A19E0897F003C2370 /* Main.storyboard */; };
+		51EF592E19E0897F003C2370 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EF592D19E0897F003C2370 /* Images.xcassets */; };
+		51EF593119E0897F003C2370 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51EF592F19E0897F003C2370 /* LaunchScreen.xib */; };
+		51EF593D19E0897F003C2370 /* ACMNativeWebTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EF593C19E0897F003C2370 /* ACMNativeWebTableTests.m */; };
+		51EF594D19E090D9003C2370 /* sample_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51EF594819E090D9003C2370 /* sample_1.txt */; };
+		51EF594E19E090D9003C2370 /* sample_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51EF594919E090D9003C2370 /* sample_2.txt */; };
+		51EF594F19E090D9003C2370 /* sample_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51EF594A19E090D9003C2370 /* sample_3.txt */; };
+		51EF595019E090D9003C2370 /* sample_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51EF594B19E090D9003C2370 /* sample_4.txt */; };
+		51EF595119E090D9003C2370 /* sample_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51EF594C19E090D9003C2370 /* sample_5.txt */; };
+		7F6DB78E8EA677B76689DE42 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD66B8B682227FFC5E12A6C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51EF593719E0897F003C2370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51EF591519E0897F003C2370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51EF591C19E0897F003C2370;
+			remoteInfo = ACMNativeWebTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51EF591D19E0897F003C2370 /* ACMNativeWebTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACMNativeWebTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EF592119E0897F003C2370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EF592219E0897F003C2370 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51EF592419E0897F003C2370 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51EF592519E0897F003C2370 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51EF592719E0897F003C2370 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51EF592819E0897F003C2370 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51EF592B19E0897F003C2370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51EF592D19E0897F003C2370 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51EF593019E0897F003C2370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		51EF593619E0897F003C2370 /* ACMNativeWebTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACMNativeWebTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EF593B19E0897F003C2370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EF593C19E0897F003C2370 /* ACMNativeWebTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMNativeWebTableTests.m; sourceTree = "<group>"; };
+		51EF594819E090D9003C2370 /* sample_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_1.txt; sourceTree = "<group>"; };
+		51EF594919E090D9003C2370 /* sample_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_2.txt; sourceTree = "<group>"; };
+		51EF594A19E090D9003C2370 /* sample_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_3.txt; sourceTree = "<group>"; };
+		51EF594B19E090D9003C2370 /* sample_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_4.txt; sourceTree = "<group>"; };
+		51EF594C19E090D9003C2370 /* sample_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample_5.txt; sourceTree = "<group>"; };
+		9FD66B8B682227FFC5E12A6C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD487EA67694F309DB115CFD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E78A2309C2751954AB14C483 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51EF591A19E0897F003C2370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6DB78E8EA677B76689DE42 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EF593319E0897F003C2370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332B16CAFBB719969258B4EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD66B8B682227FFC5E12A6C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51EF591419E0897F003C2370 = {
+			isa = PBXGroup;
+			children = (
+				51EF591F19E0897F003C2370 /* ACMNativeWebTable */,
+				51EF593919E0897F003C2370 /* ACMNativeWebTableTests */,
+				51EF591E19E0897F003C2370 /* Products */,
+				FB66EC22934131457A2B2968 /* Pods */,
+				332B16CAFBB719969258B4EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51EF591E19E0897F003C2370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51EF591D19E0897F003C2370 /* ACMNativeWebTable.app */,
+				51EF593619E0897F003C2370 /* ACMNativeWebTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51EF591F19E0897F003C2370 /* ACMNativeWebTable */ = {
+			isa = PBXGroup;
+			children = (
+				51EF594719E090B7003C2370 /* sample_sources */,
+				51EF594619E089BB003C2370 /* source */,
+				51EF592419E0897F003C2370 /* AppDelegate.h */,
+				51EF592519E0897F003C2370 /* AppDelegate.m */,
+				51EF592719E0897F003C2370 /* ViewController.h */,
+				51EF592819E0897F003C2370 /* ViewController.m */,
+				51EF592A19E0897F003C2370 /* Main.storyboard */,
+				51EF592D19E0897F003C2370 /* Images.xcassets */,
+				51EF592F19E0897F003C2370 /* LaunchScreen.xib */,
+				51EF592019E0897F003C2370 /* Supporting Files */,
+			);
+			path = ACMNativeWebTable;
+			sourceTree = "<group>";
+		};
+		51EF592019E0897F003C2370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51EF592119E0897F003C2370 /* Info.plist */,
+				51EF592219E0897F003C2370 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51EF593919E0897F003C2370 /* ACMNativeWebTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				51EF593C19E0897F003C2370 /* ACMNativeWebTableTests.m */,
+				51EF593A19E0897F003C2370 /* Supporting Files */,
+			);
+			path = ACMNativeWebTableTests;
+			sourceTree = "<group>";
+		};
+		51EF593A19E0897F003C2370 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51EF593B19E0897F003C2370 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51EF594619E089BB003C2370 /* source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		51EF594719E090B7003C2370 /* sample_sources */ = {
+			isa = PBXGroup;
+			children = (
+				51EF594819E090D9003C2370 /* sample_1.txt */,
+				51EF594919E090D9003C2370 /* sample_2.txt */,
+				51EF594A19E090D9003C2370 /* sample_3.txt */,
+				51EF594B19E090D9003C2370 /* sample_4.txt */,
+				51EF594C19E090D9003C2370 /* sample_5.txt */,
+			);
+			path = sample_sources;
+			sourceTree = "<group>";
+		};
+		FB66EC22934131457A2B2968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E78A2309C2751954AB14C483 /* Pods.debug.xcconfig */,
+				CD487EA67694F309DB115CFD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51EF591C19E0897F003C2370 /* ACMNativeWebTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EF594019E0897F003C2370 /* Build configuration list for PBXNativeTarget "ACMNativeWebTable" */;
+			buildPhases = (
+				90E61463E1B17E853D08A028 /* Check Pods Manifest.lock */,
+				51EF591919E0897F003C2370 /* Sources */,
+				51EF591A19E0897F003C2370 /* Frameworks */,
+				51EF591B19E0897F003C2370 /* Resources */,
+				95AEE5CCFA8947ED4D422E41 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACMNativeWebTable;
+			productName = ACMNativeWebTable;
+			productReference = 51EF591D19E0897F003C2370 /* ACMNativeWebTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51EF593519E0897F003C2370 /* ACMNativeWebTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EF594319E0897F003C2370 /* Build configuration list for PBXNativeTarget "ACMNativeWebTableTests" */;
+			buildPhases = (
+				51EF593219E0897F003C2370 /* Sources */,
+				51EF593319E0897F003C2370 /* Frameworks */,
+				51EF593419E0897F003C2370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51EF593819E0897F003C2370 /* PBXTargetDependency */,
+			);
+			name = ACMNativeWebTableTests;
+			productName = ACMNativeWebTableTests;
+			productReference = 51EF593619E0897F003C2370 /* ACMNativeWebTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51EF591519E0897F003C2370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = acmethunder;
+				TargetAttributes = {
+					51EF591C19E0897F003C2370 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					51EF593519E0897F003C2370 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 51EF591C19E0897F003C2370;
+					};
+				};
+			};
+			buildConfigurationList = 51EF591819E0897F003C2370 /* Build configuration list for PBXProject "ACMNativeWebTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51EF591419E0897F003C2370;
+			productRefGroup = 51EF591E19E0897F003C2370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51EF591C19E0897F003C2370 /* ACMNativeWebTable */,
+				51EF593519E0897F003C2370 /* ACMNativeWebTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51EF591B19E0897F003C2370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EF595119E090D9003C2370 /* sample_5.txt in Resources */,
+				51EF594D19E090D9003C2370 /* sample_1.txt in Resources */,
+				51EF592C19E0897F003C2370 /* Main.storyboard in Resources */,
+				51EF594E19E090D9003C2370 /* sample_2.txt in Resources */,
+				51EF593119E0897F003C2370 /* LaunchScreen.xib in Resources */,
+				51EF594F19E090D9003C2370 /* sample_3.txt in Resources */,
+				51EF595019E090D9003C2370 /* sample_4.txt in Resources */,
+				51EF592E19E0897F003C2370 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EF593419E0897F003C2370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90E61463E1B17E853D08A028 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95AEE5CCFA8947ED4D422E41 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51EF591919E0897F003C2370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EF592919E0897F003C2370 /* ViewController.m in Sources */,
+				51EF592619E0897F003C2370 /* AppDelegate.m in Sources */,
+				51EF592319E0897F003C2370 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51EF593219E0897F003C2370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EF593D19E0897F003C2370 /* ACMNativeWebTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51EF593819E0897F003C2370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51EF591C19E0897F003C2370 /* ACMNativeWebTable */;
+			targetProxy = 51EF593719E0897F003C2370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51EF592A19E0897F003C2370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EF592B19E0897F003C2370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51EF592F19E0897F003C2370 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51EF593019E0897F003C2370 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51EF593E19E0897F003C2370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51EF593F19E0897F003C2370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51EF594119E0897F003C2370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78A2309C2751954AB14C483 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACMNativeWebTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51EF594219E0897F003C2370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD487EA67694F309DB115CFD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ACMNativeWebTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		51EF594419E0897F003C2370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ACMNativeWebTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACMNativeWebTable.app/ACMNativeWebTable";
+			};
+			name = Debug;
+		};
+		51EF594519E0897F003C2370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ACMNativeWebTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACMNativeWebTable.app/ACMNativeWebTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51EF591819E0897F003C2370 /* Build configuration list for PBXProject "ACMNativeWebTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EF593E19E0897F003C2370 /* Debug */,
+				51EF593F19E0897F003C2370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EF594019E0897F003C2370 /* Build configuration list for PBXNativeTarget "ACMNativeWebTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EF594119E0897F003C2370 /* Debug */,
+				51EF594219E0897F003C2370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EF594319E0897F003C2370 /* Build configuration list for PBXNativeTarget "ACMNativeWebTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51EF594419E0897F003C2370 /* Debug */,
+				51EF594519E0897F003C2370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51EF591519E0897F003C2370 /* Project object */;
+}
